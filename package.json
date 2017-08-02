@@ -13,7 +13,8 @@
   },
   "keywords": [],
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "NODE_ENV=production webpack --colors --progress",
+    "watch": "webpack --colors --progress --watch"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
@@ -53,8 +54,8 @@
     "webpack": "3.3.0"
   },
   "dependencies": {
-    "@parity/shared": "paritytech/js-shared#9bb1d291d8752a827613889498e380fcd3afa8da",
-    "@parity/api": "paritytech/js-api#ade4a6750292a2918676039ea53eea20c4c728bc",
+    "@parity/shared": "paritytech/js-shared",
+    "@parity/api": "paritytech/js-api",
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "react-tap-event-plugin": "2.0.1",
