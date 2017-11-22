@@ -1,8 +1,8 @@
 {
   "id": "dapp-githubhint",
   "name": "dapp-githubhint",
-  "description": "Dapp for Parity",
+  "description": "Registration of content hashes from URL",
   "author": "Parity Team <admin@parity.io>",
   "version": "1.99.99",
-  "iconUrl": ""
+  "iconUrl": "icon.png"
 }
